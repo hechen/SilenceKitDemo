@@ -1,6 +1,6 @@
 name: SilenceKitDemo
 options:
-  bundleIdPrefix: com.chen
+  bundleIdPrefix: app.chen.github
   deploymentTarget:
     iOS: 17.0
 
@@ -19,7 +19,7 @@ targets:
       - package: SilenceKit
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.chen.silencekitdemo
+        PRODUCT_BUNDLE_IDENTIFIER: app.chen.github.silencekitdemo
         INFOPLIST_KEY_UIApplicationSceneManifest_Generation: true
         INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: true
         INFOPLIST_KEY_UILaunchScreen_Generation: true
